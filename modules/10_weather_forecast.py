@@ -1,0 +1,1 @@
+import requests;print(requests.get(f"https://wttr.in/{input('City: ')}?format=3").text)

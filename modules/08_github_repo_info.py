@@ -1,0 +1,1 @@
+import requests; print(requests.get(f"https://api.github.com/repos/{input('owner/repo: ')}").json())

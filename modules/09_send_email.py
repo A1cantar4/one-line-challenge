@@ -1,1 +1,0 @@
-import smtplib; s=smtplib.SMTP("smtp.gmail.com",587); s.starttls(); print("SMTP pronto, configure login e envio.")

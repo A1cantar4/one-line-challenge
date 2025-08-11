@@ -6,6 +6,16 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [0.1.2] - 2025-08-11
+### Added
+- First version of "Github repo info".
+- First version of "Language detector".
+- First version of "Weather forecast".
+- Global README.md
+
+### Changed
+- Included "langdetect" in "requirements.txt"
+
 ## [0.1.1] - 2025-08-11 
 ### Added
 - This changelog.

@@ -1,0 +1,1 @@
+from langdetect import detect;print(detect(input("\nDigite um texto: ")))
