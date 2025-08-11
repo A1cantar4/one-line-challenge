@@ -1,0 +1,1 @@
+import http.server, socketserver;socketserver.TCPServer(("",8000),http.server.SimpleHTTPRequestHandler).serve_forever()

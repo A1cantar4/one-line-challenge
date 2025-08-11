@@ -1,0 +1,1 @@
+import qrcode;qrcode.make(input("\nCole aqui o endereço: ").strip()).save("qrcode.png")

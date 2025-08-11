@@ -1,0 +1,1 @@
+import zipfile;zipfile.ZipFile("arquivo.zip","w").write(input("\nDigite o nome do arquivo e sua extensão: "))
