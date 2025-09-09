@@ -12,7 +12,7 @@ A collection of **10 Simple Python Projects**, each written in **just one line o
 
 ---
 
-## 🚀 Features
+## Features
 
 Each file inside the `modules/` folder is a **different project**:
 
@@ -29,19 +29,48 @@ Each file inside the `modules/` folder is a **different project**:
 
 ---
 
-## 🧰 Technologies
+## Project Structure
 
-- Python 3.X
-- Flask
-- Requests
-- Qrcode
-- Googletrans
-- Matplotlib
-- Langdetect
+```
+one-line-challenge/
+│
+├── modules/
+│   ├── 01_flask_server.py
+│   ├── 02_get_website_title.py
+│   ├── 03_qrcode_generator.py
+│   ├── 04_save_webpage.py
+│   ├── 05_translator.py
+│   ├── 06_quick_plot.py
+│   ├── 07_create_zip.py
+│   ├── 08_github_repo_info.py
+│   ├── 09_language_detector.py
+│   └── 10_weather_forecast.py
+│
+├── CHANGELOG.md
+├── .gitignore
+├── requirements.txt
+├── LICENSE
+├── README.md
+└── assets/
+    └── logo.png
+```
 
 ---
 
-## 📦 Installation
+## Requirements.txt
+
+```txt
+flask
+requests
+qrcode
+googletrans==4.0.0-rc1
+matplotlib
+langdetect
+```
+
+---
+
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -70,57 +99,35 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 requirements.txt
+## How to run
 
-```txt
-flask
-requests
-qrcode
-googletrans==4.0.0-rc1
-matplotlib
-langdetect
+1. Open the `app.py` or run in terminal:
+```bash
+python app.py
 ```
+
+2. Select in menu:
+```bash
+=== One Line Challenge Menu ===
+[1] Flask Server
+[2] Get Website Title
+[3] QR Code Generator
+[4] Save HTML Webpage
+[5] Translator
+[6] Quick Plot
+[7] Create Zip
+[8] Github Repo Info
+[9] Language Detector
+[10] Weather Forecast
+[0] Quit
+Select one option: 
+```
+
+3. Enjoy the App!
 
 ---
 
-## 📁 Project Structure
-
-```
-one-line-challenge/
-│
-├── modules/
-│   ├── 01_flask_server.py
-│   ├── 02_get_website_title.py
-│   ├── 03_qrcode_generator.py
-│   ├── 04_save_webpage.py
-│   ├── 05_translator.py
-│   ├── 06_quick_plot.py
-│   ├── 07_create_zip.py
-│   ├── 08_github_repo_info.py
-│   ├── 09_language_detector.py
-│   └── 10_weather_forecast.py
-│
-├── CHANGELOG.md
-├── .gitignore
-├── requirements.txt
-├── LICENSE
-├── README.md
-└── assets/
-    └── logo.png
-```
-
----
-
-## 🧠 What I Learned
-
-- How to build useful applications with minimal code.
-- Creative ways to explore Python libraries.
-- Using public APIs with `requests`.
-- Quick integration with external services.
-
----
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 1. Fork the project
@@ -131,7 +138,7 @@ Contributions are welcome!
 
 ---
 
-## 🪪 License
+## License
 
 This project is licensed under the MIT License.
 See the [LICENSE](LICENSE) file for more details.
