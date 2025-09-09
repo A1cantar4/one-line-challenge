@@ -5,6 +5,13 @@ The format follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
+## [0.1.3] - 2025-09-08
+### Added
+- Main app in root, with menu in cli-terminal.
+
+### Changed
+- Added new instructions in Readme.
+- All phrases (within the applications) that were previously in Portuguese are now in English.
 
 ## [0.1.2] - 2025-08-11
 ### Added
