@@ -1,1 +1,1 @@
-import requests;open("page.html","w",encoding="utf-8").write(requests.get(input("\nCole aqui o endereço: ").strip()).text)
+import requests;open("page.html","w",encoding="utf-8").write(requests.get(input("\nPaste here the website: ").strip()).text)

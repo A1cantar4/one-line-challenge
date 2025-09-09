@@ -1,1 +1,1 @@
-from flask import Flask;app=Flask(__name__);app.route("/")(lambda:"Deploy concluído!");app.run()
+from flask import Flask;app=Flask(__name__);app.route("/")(lambda:"Deploy done!");app.run()

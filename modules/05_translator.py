@@ -1,1 +1,1 @@
-from googletrans import Translator;print(Translator().translate(input("\nDigite aqui o texto: ").strip().lower(),dest="en").text)
+from googletrans import Translator;print(Translator().translate(input("\nWrite the text in other language: ").strip().lower(),dest="en").text)

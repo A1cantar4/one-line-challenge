@@ -1,1 +1,1 @@
-import requests,re;print(re.search("<title>(.*?)</title>",requests.get(input("\nCole aqui o site: ").strip()).text).group(1))
+import requests,re;print(re.search("<title>(.*?)</title>",requests.get(input("\nPaste here the website: ").strip()).text).group(1))

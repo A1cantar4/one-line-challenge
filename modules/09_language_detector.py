@@ -1,1 +1,1 @@
-from langdetect import detect;print(detect(input("\nDigite um texto: ")))
+from langdetect import detect;print(detect(input("\nWrite the text: ")))
